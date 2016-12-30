@@ -1,0 +1,17 @@
+{
+  "name": "pattern-matching",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "version": "1.0.0",
+  "author": "joelburget@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-preset-env": "^1.1.4"
+  }
+}
